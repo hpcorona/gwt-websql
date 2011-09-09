@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="websql" default="build">
+    <target name="build">
+    	<copy todir="bin">
+    		<fileset dir="src" />
+    	</copy>
+    	<copy todir="bin">
+    		<fileset dir="war/WEB-INF/classes" />
+    	</copy>
+    	<jar destfile="websql.jar" basedir="bin">
+    	</jar>
+    </target>
+</project>
