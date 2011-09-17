@@ -1,6 +1,10 @@
 gwt-websql
 ======
 
+THIS PROJECT IS DEPRECATED. Why? Because i've found a better one, here:
+http://code.google.com/p/gwt-mobile-webkit/wiki/DatabaseApi
+
+
 This project is an implementation of HTML5's WebSQL for GWT.
 
 It is as identical to Javascript's native implementation as possible.
